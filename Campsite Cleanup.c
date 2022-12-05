@@ -13,7 +13,7 @@ int main()
 
         int a, b, c, d;
 
-        sscanf(buffer, "%d-%d, %d-%d", &a, &b, &c, &d );
+        sscanf(buffer, "%d-%d, %d-%d", &a, &b, &c, &d);
         
         if (a >= c && b <= d || c >= a && d <= b){
             answer_1 += 1;
